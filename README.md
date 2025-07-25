@@ -94,11 +94,11 @@ terraform apply
 
 ### 1. Remote State Setup
 
-![DynamoDB Key generated when lock acquired.](./screenshots/ "Screenshot 2025-07-25 084231.png")
+![DynamoDB Key generated when lock acquired.](./screenshots/Screenshot2.png)
 
 ### 2. Terminal - Plan Output
 
-![Terraform Plan output when multiple user try to update.](./screenshots/ "Screenshot 2025-07-25 085643.png")
+![Terraform Plan output when multiple user try to update.](./screenshots/Screenshot1.png)
 
 ---
 

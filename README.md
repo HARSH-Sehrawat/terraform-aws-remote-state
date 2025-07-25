@@ -132,7 +132,6 @@ terraform apply
 > Ensure `.terraform/` and `.terraform.lock.hcl` are not pushed.
 
 ---
----
 
 ## \:white\_check\_mark: Validation
 

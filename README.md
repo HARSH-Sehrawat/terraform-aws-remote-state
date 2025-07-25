@@ -86,7 +86,7 @@ terraform apply
 
 ## \:art: Architecture Diagram
 
-![Architecture](./screenshots/Screenshot%202025-07-25%20085643.png)
+![Architecture](./screenshots/Architecture_diagram.png)
 
 ---
 
@@ -94,11 +94,11 @@ terraform apply
 
 ### 1. Remote State Setup
 
-![S3 & DynamoDB](./screenshots/Screenshot%202025-07-25%20082215.png)
+![DynamoDB Key generated when lock acquired.](./screenshots/ 'Screenshot 2025-07-25 084231.png')
 
 ### 2. Terminal - Plan Output
 
-![Terraform Plan](./screenshots/Screenshot%202025-07-25%20084231.png)
+![Terraform Plan output when multiple user try to update.](./screenshots/ 'Screenshot 2025-07-25 085643.png')
 
 ---
 

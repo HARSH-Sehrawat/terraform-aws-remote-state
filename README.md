@@ -132,13 +132,6 @@ terraform apply
 > Ensure `.terraform/` and `.terraform.lock.hcl` are not pushed.
 
 ---
-
-## \:rocket: Future Improvements
-
-* Add security groups and key pairs
-* Integrate with GitHub Actions for CI/CD
-* Use variables from a `terraform.tfvars` file
-
 ---
 
 ## \:white\_check\_mark: Validation

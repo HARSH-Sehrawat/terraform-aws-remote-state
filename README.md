@@ -8,23 +8,29 @@ This project demonstrates managing remote state in Terraform using AWS S3 and Dy
 
 ```
 terraform-aws-remote-state/
-├── backend/
-│   └── main.tf                 # S3 bucket and DynamoDB table creation for remote state
-├── ec2-a/
-│   ├── main.tf                 # EC2-A module call and provider block
+├── .devcontainer/                # Codespaces config
+├── backend/                      # Remote backend creation
+│   ├── main.tf
 │   ├── variables.tf
-│   └── backend.tf              # Remote backend config for EC2-A
-├── ec2-b/
-│   ├── main.tf                 # EC2-B module call and provider block
+│   └── backend.tf
+├── ec2-a/                        # EC2 instance A config
+│   ├── main.tf
 │   ├── variables.tf
-│   └── backend.tf              # Remote backend config for EC2-B
+│   └── backend.tf
+├── ec2-b/                        # EC2 instance B config
+│   ├── main.tf
+│   ├── variables.tf
+│   └── backend.tf
 ├── modules/
-│   └── EC2-instance/
-│       ├── main.tf             # EC2 resource definition
+│   └── EC2-instance/             # Reusable EC2 module
+│       ├── main.tf
 │       ├── variables.tf
 │       └── output.tf
+├── screenshots/                  # Terminal & AWS screenshots
+├── architecture-diagram.png      # Architecture diagram
+├── project-diagram.png           # Project structure visual
 ├── .gitignore
-└── README.md
+└── README.md                     # This file
 ```
 
 ---
